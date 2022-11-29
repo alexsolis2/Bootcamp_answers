@@ -87,3 +87,15 @@ Si la uno fuera cierta, entonces Alice esta diciendo la verdad, pero si Alice es
 2- Si Bob esta diciendo la verdad, entonces 1 persona estudio, y si dice la verdad fue el quien estudio.
 3-Los demas nombran mas de una persona, si estuvieran diciendo la verdad quiere decir mas de una persona estudio, cosa que los contradice.
 Por lo tanto Bob dice la verdad.
+
+
+
+Which comes first, cereal or milk
+
+Pseudocodigo
+1- Ir a la cocina
+2- Agarrar un recipiente
+3- Sacar el cerearl y la leche
+4- vertir el cereal y luego la leche
+5- Agregar azucar si asi lo desea
+
