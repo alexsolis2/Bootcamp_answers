@@ -99,3 +99,13 @@ Pseudocodigo
 4- vertir el cereal y luego la leche
 5- Agregar azucar si asi lo desea
 
+Print my name
+Algoritmo myName
+	Imprimir "Alex Solis"
+FinAlgoritmo
+
+Print my name and age
+Algoritmo myName
+	Imprimir "Alex Solis"
+	Imprimir "27"
+FinAlgoritmo
