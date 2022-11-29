@@ -109,3 +109,33 @@ Algoritmo myName
 	Imprimir "Alex Solis"
 	Imprimir "27"
 FinAlgoritmo
+
+
+Even or odd
+Algoritmo EvenorOdd
+	Imprimir "Digite el numero"
+	Leer numero
+	Resultado<-numero%2
+	Imprimir Resultado
+FinAlgoritmo
+
+Register form
+Algoritmo Form
+	Imprimir "First Name"
+	Leer FN
+	Imprimir "Last Name"
+	Leer LA
+	Imprimir "Age"
+	Leer Age
+	Imprimir "Email"
+	Leer Em
+	Imprimir "Address"
+	Leer Add
+	Imprimir "Datos del usuario"
+	Imprimir "Nombre: ", FN
+	Imprimir "Apellido: ", LA
+	Imprimir "Edad: ", Age
+	Imprimir "Email: ", Em
+	Imprimir "Direccion: ", Add
+FinAlgoritmo
+
