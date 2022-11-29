@@ -153,3 +153,16 @@ F | F = F
 (T | F ) & (F | F) = T xxx F
 ~((T | F ) & (F | F)) & F = T XXX F
 ~((T | F ) & (F | F)) & T = F  XXX T
+
+
+Identify odd and even numbers
+Algoritmo EvenorOdd
+	Imprimir "Digite el numero"
+	Leer numero
+	Resultado<-numero%2
+	Si Resultdo == 0 Entonces
+		Imprimir "Numero ", numero, " es par"
+	SiNo
+	    Imprimir "Numero ", numero, " es impar"
+	Fin Si
+FinAlgoritmo
