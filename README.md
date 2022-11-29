@@ -154,6 +154,28 @@ F | F = F
 ~((T | F ) & (F | F)) & F = T XXX F
 ~((T | F ) & (F | F)) & T = F  XXX T
 
+Boolean results
+Algoritmo boolean
+	a <- 5 == 3
+	//Falso, ya que 5 es distinto de 3
+	b <- 4 <> 3
+	// True, ya que 4 es distinto de 3
+	c <- 7 > 7
+	// Falso, ya que 7 es mayor que 7
+	d <- 4 < 4
+	//Falso, ya que 4 es igual que 4
+	e <- 100 <= 90
+	// Falso, ya que 100 es mayor que 90
+	f <- 40 >= 40
+	//True, ya que 40 es igual que 40
+	Imprimir a
+	Imprimir b
+	Imprimir c
+	Imprimir d
+	Imprimir e
+	Imprimir f
+FinAlgoritmo
+
 
 Identify odd and even numbers
 Algoritmo EvenorOdd
