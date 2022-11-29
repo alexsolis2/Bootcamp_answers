@@ -139,3 +139,17 @@ Algoritmo Form
 	Imprimir "Direccion: ", Add
 FinAlgoritmo
 
+T & T = T
+T & F = F
+F & T = T   xxxx F
+F & F = F
+T | T = T
+T | F = F
+F | T = T xxx  F
+F | F = F
+~T = T xxxxx F
+~F = T
+(T & F) | (~F) = T
+(T | F ) & (F | F) = T xxx F
+~((T | F ) & (F | F)) & F = T XXX F
+~((T | F ) & (F | F)) & T = F  XXX T
