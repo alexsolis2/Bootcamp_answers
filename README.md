@@ -70,3 +70,20 @@ Cofre derecho: Solo uno de estos cofres tiene tesoros.
 Entonces como no es verdad, No solo uno de estos cofres tiene tesoros.
 
 Estan en el izquierdo y derecho
+
+Logic problem
+
+Premisas
+
+1- Alice: "Nobody studied math yesterday".
+2- Bob: "1 person studied math yesterday".
+3- Charlie: "2 people studied math yesterday".
+4- Dan: "3 people studied mathematics yesterday".
+5- Eva: "4 people studied mathematics yesterday".
+
+The teacher knows that only those who studied would be telling the truth and those who didn't would be lying. Who is telling the truth?
+
+Si la uno fuera cierta, entonces Alice esta diciendo la verdad, pero si Alice esta diciendo la verdad entonces estudio, por lo tanto se contradice con la premisa.
+2- Si Bob esta diciendo la verdad, entonces 1 persona estudio, y si dice la verdad fue el quien estudio.
+3-Los demas nombran mas de una persona, si estuvieran diciendo la verdad quiere decir mas de una persona estudio, cosa que los contradice.
+Por lo tanto Bob dice la verdad.
