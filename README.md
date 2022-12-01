@@ -3,7 +3,10 @@ Lets make pizza
 Algoritmo
 1- Dirigirse a la cocina
 2- Tomar todos los ingredientes y ponerlos sobre un lugar limpio
-3- 
+3- Tomar la masa y prepararla
+4- Darle la forma a la masa
+5- Agregar los ingredientes
+6- Hornear por 15 minutos
 
 Hot N Cold
 Algoritmo
@@ -87,7 +90,6 @@ Si la uno fuera cierta, entonces Alice esta diciendo la verdad, pero si Alice es
 2- Si Bob esta diciendo la verdad, entonces 1 persona estudio, y si dice la verdad fue el quien estudio.
 3-Los demas nombran mas de una persona, si estuvieran diciendo la verdad quiere decir mas de una persona estudio, cosa que los contradice.
 Por lo tanto Bob dice la verdad.
-
 
 
 Which comes first, cereal or milk
@@ -187,4 +189,203 @@ Algoritmo EvenorOdd
 	SiNo
 	    Imprimir "Numero ", numero, " es impar"
 	Fin Si
+FinAlgoritmo
+
+
+Simple calculator
+Algoritmo Simplecalculator
+	Imprimir "Ingrese primer numero"
+	Leer num1
+	Imprimir "Ingrese segundo numero"
+	Leer num2
+	Imprimir "Ingrese una operacion: +,-,*,/"
+	Leer op
+	Si op == "+" | op == "-" | op == "*" | op == "/"  Entonces
+		Si op == "+" Entonces
+			Imprimir "Procesando ",num1, " + ", num2
+			Imprimir num1+num2
+		Fin Si
+		Si op == "-" Entonces
+			Imprimir "Procesando ",num1, " - ", num2
+			Imprimir num1-num2
+		Fin Si
+		Si op == "*" Entonces
+			Imprimir "Procesando ",num1, " * ", num2
+			Imprimir num1*num2
+		Fin Si
+		Si op == "/" Entonces
+			Imprimir "Procesando ",num1, " / ", num2
+			Imprimir num1/num2
+		Fin Si
+	SiNo
+		Imprimir "La operacion no es valida"
+	Fin Si
+FinAlgoritmo
+
+Algoritmo specialNumber
+	Leer num
+	Si num == 100 Entonces
+		Imprimir "This is a special number"
+	SiNo
+		Si num<1000 & num/10 == 0 & num <> 100   Entonces
+			Imprimir  "This number is almost special"
+		SiNo
+			Imprimir "Just a regular number"
+		Fin Si
+	Fin Si
+FinAlgoritmo
+
+
+Algoritmo Simplecalculatorsw
+	Imprimir  "Ingrese primer numero"
+	Leer n1
+	Imprimir  "Ingrese segundo numero"
+	Leer n2
+	Imprimir  "Ingrese una operacion: +,-,*,/"
+	Leer op
+	Si op == "+"  | op == "-"  | op == "*"  | op == "/" Entonces
+		Segun  op Hacer
+			"+":
+				Imprimir "Procesando: ", n1, " + ",n2
+				Imprimir "Resultado: ",n1+n2
+			"-":
+				Imprimir "Procesando: ", n1, " - ",n2
+				Imprimir "Resultado: ",n1-n2
+			"*":
+				Imprimir "Procesando: ", n1, " * ",n2
+				Imprimir "Resultado: ",n1*n2
+			"/":
+				Imprimir "Procesando: ", n1, " / ",n2
+				Imprimir "Resultado: ",n1/n2
+		FinSegun
+	SiNo
+		Imprimir "La operacion no es valida"
+	Fin Si
+FinAlgoritmo
+
+Algoritmo MultiOptionProgram
+	Imprimir "Opciones disponibles"
+	Imprimir "1. Sumar dos numeros"
+	Imprimir "2. Imprimir dia de la semana"
+	Imprimir "3. Calcular longitud de texto"
+	Imprimir "Ingrese la opcion seleccionada"
+	Leer op
+	Segun op Hacer
+		1:
+			Imprimir "Ingrese el primer numero"
+			Leer n1
+			Imprimir "Ingrese el segundo numero"
+			Leer n2
+			Imprimir "Resultado: ",n1+n2
+		2:
+			Imprimir "Ingrese el dia de la semana en numeros (1-7)"
+			Leer dia
+		    Segun dia Hacer
+					1:
+						Imprimir "Lunes"
+					2:
+						Imprimir "Martes"
+					3:
+						Imprimir "Miercoles"
+					4: 
+						Imprimir "Jueves"
+					5: 
+						Imprimir "Viernes"
+					6:
+						Imprimir "Sabado"
+					7: 
+						Imprimir "Domingo"
+			FinSegun
+		3:
+			Imprimir "Digite el texto: "
+			Definir text como cadena
+			Leer text
+			Imprimir "Longitud: ", Longitud(text)
+	FinSegun
+FinAlgoritmo
+
+Algoritmo MultiplicationTables
+	Imprimir "Ingrese la tabla a calcular"
+	Leer tabla
+	i<-1
+	Mientras i<=10 Hacer
+		Imprimir tabla, "* ",i, " = ",tabla*i
+		i<-i+1
+	FinMientras
+FinAlgoritmo
+
+Proceso SimpleCalcwDwhile
+	stop<-""
+	Repetir
+		Imprimir "Ingrese primer numero"
+		Leer num1
+		Imprimir "Ingrese segundo numero"
+		Leer num2
+		Imprimir "Ingrese una operacion ? +,-,*,/"
+		Leer op
+		Segun op Hacer
+			"+":
+				Imprimir "Procesando: ",num1," + ",num2
+				Imprimir "Resultado: ", num1+num2
+			"-":
+				Imprimir "Procesando: ",num1," - ",num2
+				Imprimir "Resultado: ", num1-num2
+			"*":
+				Imprimir "Procesando: ",num1," * ",num2
+				Imprimir "Resultado: ", num1*num2
+			"/":
+				Imprimir "Procesando: ",num1," / ",num2
+				Imprimir "Resultado: ", num1/num2
+		FinSegun
+		Imprimir "Deseas continuar con la operacion ? Si / No"
+		Leer stop
+	Hasta Que stop == "No"
+FinProceso
+
+Algoritmo MultiplicationTableswithFor
+	Imprimir "Ingrese la tabla a calcular"
+	Leer tabla
+	Imprimir "@ Tabla de ",tabla," @"
+	Para i<-1 Hasta 10 Con Paso 1 Hacer
+		Imprimir tabla, " * ", i," = " ,tabla * i
+	FinPara
+FinAlgoritmo
+
+Algoritmo AscendingandDescendingNumbers
+	Imprimir "Ingrese un numero"
+	Leer num
+	Imprimir "Operaciones disponibles:"
+	Imprimir "1. Imprimir en orden Ascendente"
+	Imprimir "2. Imprimir en orden Descendente"
+	Imprimir "Ingrese operacion a ejecutar"
+	Leer op
+	Si op == 1 Entonces
+		Para i<-0 Hasta num Con Paso 1 Hacer
+			Imprimir i
+		FinPara
+	SiNo
+		Para i<-num Hasta 0 Con Paso -1 Hacer
+			Imprimir i
+		FinPara
+	Fin Si
+FinAlgoritmo
+
+Algoritmo Greetings
+	Imprimir "======= Cheers ======="
+	Seguir<-""
+	Mientras Seguir<> "No" Hacer
+		Imprimir "Ingrese la hora actual (0-23):"
+		Leer hora
+		Si hora<=12 & hora >= 0 Entonces
+			Imprimir "Buenos dias!"
+		Fin Si
+		Si hora>=13 & hora <=18 Entonces
+			Imprimir "Buenas tardes!"
+		Fin Si
+		Si hora>=19 & hora <=23 Entonces
+			Imprimir "Buenas noches!"
+		Fin Si
+		Imprimir "Desea continuar ? Si/No"
+		Leer Seguir
+	FinMientras
 FinAlgoritmo
