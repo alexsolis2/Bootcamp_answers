@@ -502,3 +502,27 @@ Algoritmo TossCoin
 		Fin Si
 	FinSi
 FinAlgoritmo
+
+Funcion dalevuelta <- ReverseDirectionAndSize(cadena)
+	Definir dalevuelta Como Caracter;
+	c<-1
+	f<-Longitud(cadena)
+	Mientras c<=f Hacer
+		primero = Mayusculas(Subcadena(cadena,c,c))
+		comparar = Subcadena(cadena,c,c)
+		Si comparar == primero Entonces //esta en mayuscula
+			dalevuelta=Concatenar(Minusculas(comparar),dalevuelta)
+			c<-c+1
+			//Imprimir dalevuelta
+		SiNo
+			dalevuelta=Concatenar(Mayusculas(comparar),dalevuelta)
+			c<-c+1
+			//Imprimir dalevuelta
+		Fin Si
+	Fin Mientras
+FinFuncion
+
+
+Algoritmo example_ReverseDirectionAndSize
+	Imprimir ReverseDirectionAndSize("Text")
+FinAlgoritmo
