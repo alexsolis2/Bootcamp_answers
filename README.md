@@ -503,6 +503,22 @@ Algoritmo TossCoin
 	FinSi
 FinAlgoritmo
 
+Funcion total <- TotalPrice(monto,impuesto)
+	Definir total Como Numero;
+	multi = impuesto/100
+	monto = monto * multi + monto
+	Si monto>3000 Entonces
+		descuento = monto*0.1
+		total = monto - descuento
+    SiNo
+		total = monto
+	Fin Si
+FinFuncion
+
+Algoritmo example_TotalPrice
+	Imprimir TotalPrice(1000,21)
+FinAlgoritmo
+
 Funcion dalevuelta <- ReverseDirectionAndSize(cadena)
 	Definir dalevuelta Como Caracter;
 	c<-1
