@@ -389,3 +389,116 @@ Algoritmo Greetings
 		Leer Seguir
 	FinMientras
 FinAlgoritmo
+
+
+Algoritmo Averagesalesandcommission
+	Imprimir "Write the total number of sales to enter"
+	Leer total
+	i<-1
+	average<-0
+	Mientras i<=total Hacer
+		Imprimir "Write the value of the sale number: ",i
+		leer venta
+		average<-average+venta
+		Imprimir average
+		i<-i+1
+	Fin Mientras
+	i<-i-1
+	totalaver<-average/i
+	Imprimir "The average sales is: ", totalaver
+	Si total>5 Entonces
+		Imprimir "The comission received by the seller is: ",average*0.15
+	SiNo
+		Imprimir "The comission received by the seller is: ",average*0.1
+	Fin Si
+FinAlgoritmo
+
+
+Algoritmo FullName
+	Imprimir "write a name"
+	Leer pn
+	Imprimir "write a last name"
+	Leer lastn
+	fn<-Mayusculas(Subcadena(pn,1,1))
+	fln<-Mayusculas(Subcadena(lastn,1,1))
+	rn<-Minusculas(Subcadena(pn,2,Longitud(pn)))
+	rlast<-Minusculas(Subcadena(lastn,2,Longitud(lastn)))
+	Imprimir Concatenar(fn,rn)," ",Concatenar(fln,rlast)
+FinAlgoritmo
+
+
+Algoritmo FullName
+	Imprimir "write a name"
+	Leer pn
+	Imprimir "write a last name"
+	Leer lastn
+	fn<-Mayusculas(Subcadena(pn,1,1))
+	fln<-Mayusculas(Subcadena(lastn,1,1))
+	rn<-Minusculas(Subcadena(pn,2,Longitud(pn)))
+	rlast<-Minusculas(Subcadena(lastn,2,Longitud(lastn)))
+	Imprimir Concatenar(fn,rn)," ",Concatenar(fln,rlast)
+FinAlgoritmo
+
+Algoritmo FullName
+	i<-1
+	Mientras i<=10 Hacer
+		x<-Aleatorio(1,7)
+		s<-Aleatorio(1,7)
+		Si x==s Entonces
+			Imprimir x," ",s," the dice are the same " 
+		SiNo
+			Imprimir x," ",s
+		Fin Si
+		Imprimir x," ",s
+		i<-i+1
+	Fin Mientras
+FinAlgoritmo
+
+
+Algoritmo Distancetozero
+	i<-1
+	n<-0
+	Mientras i<=5 Hacer
+		Imprimir "Write a number"
+		leer num
+		Si num>n Entonces
+			n<-num
+		Fin Si
+		i<-i+1
+	Fin Mientras
+	Imprimir trunc(n)
+FinAlgoritmo
+
+
+Algoritmo TossCoin
+	Imprimir "enter the name of the first player"
+	leer fname
+	Imprimir "enter the amount to play"
+	leer amount
+	Imprimir "enter the name of the second player"
+	leer sname
+	Imprimir "enter the amount to play"
+	leer amount2
+	Si amount<=0 & amount2<=0 Entonces
+		Imprimir "game canceled"
+	Fin Si
+	Si amount<=0 Entonces
+		Imprimir "player wins :",Mayusculas(sname), " amount won: ",amount2
+	FinSi
+	Si amount2<=0 Entonces
+		Imprimir "player wins :",Mayusculas(fname), " amount won: ",amount
+	SiNo
+		coin<-Aleatorio(1,2)
+		am<-Aleatorio(1,2)
+		Si am==1 Entonces
+			prem = amount
+		SiNo
+			prem = amount2
+		Fin Si
+		Si coin == 1 Entonces
+			Imprimir "player wins :",Mayusculas(fname), " amount won: ",prem
+		SiNo
+			Imprimir "player wins :",Mayusculas(sname), " amount won: ",prem
+		Fin Si
+	FinSi
+FinAlgoritmo
