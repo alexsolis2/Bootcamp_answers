@@ -441,7 +441,7 @@ FinAlgoritmo
 	
 FinAlgoritmo
 
-##Algoritmo MultiOptionProgram
+## Algoritmo MultiOptionProgram
 
 	Imprimir "Opciones disponibles"
 	
@@ -592,7 +592,7 @@ FinProceso
 
 FinAlgoritmo
 
-##Algoritmo AscendingandDescendingNumbers
+## Algoritmo AscendingandDescendingNumbers
 	
 	Imprimir "Ingrese un numero"
 	
@@ -812,7 +812,7 @@ FinAlgoritmo
 FinAlgoritmo
 
 
-##Algoritmo TossCoin
+## Algoritmo TossCoin
 
 	Imprimir "enter the name of the first player"
 	
@@ -903,7 +903,7 @@ FinFuncion
 
    FinAlgoritmo
 
-##Funcion dalevuelta <- ReverseDirectionAndSize(cadena)
+## Funcion dalevuelta <- ReverseDirectionAndSize(cadena)
 	
 	Definir dalevuelta Como Caracter;
 	
