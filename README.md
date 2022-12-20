@@ -945,3 +945,106 @@ FinFuncion
 	Imprimir ReverseDirectionAndSize("Text")
 
 FinAlgoritmo
+
+## Time Converter
+
+Funcion convertido <- timeConverter(seconds)
+
+	d = 0
+	
+	h = 0
+	
+	m = 0
+	
+	s = ""
+	
+	Si seconds>=86400 Entonces
+	
+			d = TRUNC(seconds / 86400)
+			
+			seconds = seconds mod 86400
+			
+	Fin Si
+		
+	Si seconds>=3600 Entonces
+	
+		h = TRUNC(seconds / 3600)
+		
+		seconds = seconds mod 3600
+		
+	Fin Si
+		
+	Si seconds>=60 Entonces
+	
+			m = TRUNC(seconds / 60)
+			
+			seconds = seconds mod 60
+			
+	Fin Si
+	
+	s = ConvertirATexto(seconds)
+	
+	d1=ConvertirATexto(d)
+	
+	h1=ConvertirATexto(h)
+	
+	m1=ConvertirATexto(m)
+	
+	convertido = "days: "+d1+" hours: "+ h1+ " minutes: "+m1+ " and seconds: "+s
+	
+FinFuncion
+
+Algoritmo exampleTimeConverter
+
+		Imprimir timeConverter(4000)
+		
+FinAlgoritmo
+
+## Compare distances
+
+Funcion bool <- CompareDistances()
+
+	p = 0
+	
+	n = 0
+	
+	c = 1
+	Mientras c<=5 Hacer
+	
+		Imprimir "write a number"
+		
+		Leer n1
+		
+		Si n1 > 0 Entonces
+		
+			p = p + n1
+			
+			c = c + 1
+			
+		SiNo
+			n = n + n1
+			
+			c = c + 1
+			
+		Fin Si
+		
+    FinMientras
+    
+	n = abs(n)
+	
+	Si p>n Entonces
+	
+		Imprimir True
+	SiNo
+	
+		Imprimir Falso
+		
+	Fin Si
+	
+FinFuncion
+
+Algoritmo exampleCompare 
+
+	Imprimir CompareDistances()
+	
+FinAlgoritmo
