@@ -1051,3 +1051,51 @@ Algoritmo exampleCompare
 	Imprimir CompareDistances()
 	
 FinAlgoritmo
+
+
+
+## Sum of pairs
+
+Funcion cantidad <- sumOfPairs
+	
+	i = 1
+	
+	cantidad = 0
+	
+	salir = "Falso"
+	
+	Mientras salir == "Falso" Hacer
+		
+		Imprimir " write a number between 1 and 100"
+		
+		leer num
+		
+		Si num >= 0 Y num <= 100 Entonces
+			
+			Si num mod 2 == 0 Entonces
+				
+				cantidad = cantidad + num 
+			
+			Fin Si
+		
+		SiNo
+			
+			Imprimir "invalid number"
+			
+			salir = "True"
+		
+		Fin Si
+	
+	Fin Mientras
+
+FinFuncion
+
+
+
+Algoritmo exampleSumOfPairs
+	
+	Imprimir sumOfPairs()
+
+FinAlgoritmo
+
+
