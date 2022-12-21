@@ -1172,3 +1172,72 @@ Algoritmo exampleCashier
 	Imprimir cashier()
 
 FinAlgoritmo
+
+
+## Weather average
+
+Funcion we_average <- WeatherAverage
+	
+	Salir = "false"
+	
+	celsius = 0
+	
+	c = 0
+	
+	Mientras  Salir == "false" Hacer
+	
+	        Imprimir " select an option: "
+		
+		Imprimir "a. enter degrees celsius."
+		
+		Imprimir "b. emter degrees fahrenheit."
+		
+		Imprimir "x. go out."
+		
+		Leer op
+		
+		Si op == "a" Entonces
+			
+			leer grados
+			
+			c = c + 1
+			
+			celsius = celsius+grados
+		
+		Fin Si
+		
+		Si op == "b" Entonces
+			
+			leer grados
+			
+			conversion = grados - 32
+			
+			conversion = conversion * 5
+			
+			conversion = conversion / 9
+			
+			celsius = celsius + conversion
+			
+			c = c + 1
+		
+		Fin Si
+		
+		Si op == "x" Entonces
+			
+			we_average = celsius / c
+			
+			Salir = "true"
+		
+		Fin Si
+	
+	Fin Mientras
+
+FinFuncion
+
+Algoritmo exampleWeatherAverage
+          
+	  Imprimir WeatherAverage
+
+FinAlgoritmo
+
+
