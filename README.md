@@ -1098,4 +1098,20 @@ Algoritmo exampleSumOfPairs
 
 FinAlgoritmo
 
+## Mid point
+
+Funcion mitad <- midPoint(n1,n2) 
+	
+	mitad=n1+n2
+	
+	mitad=mitad/2
+
+FinFuncion
+
+
+Algoritmo exampleMidpPoint
+	
+	Imprimir midPoint(50,-50)
+
+FinAlgoritmo
 
