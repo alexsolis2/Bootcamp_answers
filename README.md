@@ -1115,3 +1115,60 @@ Algoritmo exampleMidpPoint
 
 FinAlgoritmo
 
+
+## Cashier
+
+Funcion cajero <- cashier()
+	
+	Salir = "false"
+	
+	Mientras  Salir == "false" Hacer
+		
+		Imprimir " select an option: "
+		
+		Imprimir "a. to deposit."
+		
+		Imprimir "b. withdraw."
+		
+		Imprimir "c. go out."
+		
+		Leer op
+		
+		Si op == "a" Entonces
+		
+		        Imprimir "how much do you want to deposit: "
+			
+			leer deposit
+			
+			total = total + deposit
+		
+		Fin Si
+		
+		Si op == "b" Entonces
+			
+			Imprimir "how much do you want to withdraw: "
+			
+			leer withdraw
+			
+			total = total - withdraw
+		
+		Fin Si
+		
+		Si op == "c" Entonces
+			
+			Imprimir total
+			
+			Salir = "true"
+		
+		Fin Si
+	
+	Fin Mientras
+
+FinFuncion
+
+
+Algoritmo exampleCashier
+	
+	Imprimir cashier()
+
+FinAlgoritmo
