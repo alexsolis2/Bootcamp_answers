@@ -1281,3 +1281,54 @@ FinAlgoritmo
 	</body>
 	
 	</html>
+	
+	
+## 'WHILE' loop in JavaScript
+   <!DOCTYPE html>
+   
+   <html>
+	
+   <body>
+
+   <h2>JavaScript Do While Loop</h2>
+
+   <p id="demo"></p>
+
+   <script>
+	   
+   let text = ""
+	   
+   let i = 1;
+	   
+   let c = 1;
+	   
+   let lin = "";
+
+   do
+	   {
+   
+	   while ( c<= i)
+  
+			{
+   
+			 lin = lin + "x"
+   
+			 c++;
+  
+			}
+  
+		text = text + "<br>" + lin
+ 
+		i++;
+
+		}
+
+	while (i <= 5);  
+
+	 document.getElementById("demo").innerHTML = text;
+
+	   </script>
+
+           </body>
+
+           </html>
