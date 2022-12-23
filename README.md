@@ -1332,3 +1332,44 @@ FinAlgoritmo
            </body>
 
            </html>
+
+## 'FOR' loop in JavaScript
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+
+	const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+	let i = 0;
+
+	let len = cars.length;
+
+	let text = "";
+
+
+	for (; i < len; i++) {
+  
+		       if (cars[i].length == 3)
+  
+		       { text += cars[i]+ " " + "<br>";}
+
+		       }
+
+
+		       document.getElementById("demo").innerHTML = text;
+
+		       </script>
+
+
+	</body>
+
+	</html>
