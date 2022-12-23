@@ -1240,4 +1240,44 @@ Algoritmo exampleWeatherAverage
 
 FinAlgoritmo
 
+## 'IF' statement in JavaScript
 
+ 	<html>
+
+	<body>
+
+	<h2>JavaScript if .. else</h2>
+
+	<p>A time-based greeting:</p>
+
+	<p id="demo"></p>
+
+	<script>
+	
+	//const hour = new Date().getHours(); 
+	
+	const hour = 16;
+	
+	let greeting;
+
+	if (hour > 19) 
+	{
+	
+  		greeting = "Good night";
+	
+	} 
+	
+	else 
+	{
+	
+  		greeting = "You dont have to go sleep";
+	
+	}
+
+	document.getElementById("demo").innerHTML = greeting;
+	
+	</script>
+
+	</body>
+	
+	</html>
