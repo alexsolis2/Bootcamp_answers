@@ -1284,27 +1284,29 @@ FinAlgoritmo
 	
 	
 ## 'WHILE' loop in JavaScript
-   <!DOCTYPE html>
+   	
+	<!DOCTYPE html>
    
-   <html>
+  	<html>	
 	
-   <body>
+   	<body>
 
-   <h2>JavaScript Do While Loop</h2>
+  	<h2>JavaScript Do While Loop</h2>
 
-   <p id="demo"></p>
+   	<p id="demo"></p>
 
-   <script>
+   	<script>
 	   
-   let text = ""
+   	let text = ""
 	   
-   let i = 1;
+   	let i = 1;
 	   
-   let c = 1;
+   	let c = 1;
 	   
-   let lin = "";
+   	let lin = "";
 
-   do
+   	do
+	   
 	   {
    
 	   while ( c<= i)
@@ -1323,9 +1325,9 @@ FinAlgoritmo
 
 		}
 
-	while (i <= 5);  
+		while (i <= 5);  
 
-	 document.getElementById("demo").innerHTML = text;
+	 	document.getElementById("demo").innerHTML = text;
 
 	   </script>
 
@@ -1335,17 +1337,18 @@ FinAlgoritmo
 
 ## 'FOR' loop in JavaScript
 
-<!DOCTYPE html>
 
-<html>
+	<!DOCTYPE html>
 
-<body>
+	<html>
 
-<h2>JavaScript For Loop</h2>
+	<body>
 
-<p id="demo"></p>
+	<h2>JavaScript For Loop</h2>
 
-<script>
+	<p id="demo"></p>
+
+	<script>
 
 	const cars = ["BMW", "Volvo", "Saab", "Ford"];
 
