@@ -114,6 +114,10 @@ Cofre derecho: Solo uno de estos cofres tiene tesoros. Entonces como no es verda
 
 Estan en el izquierdo y derecho
 
+
+## Week 2
+
+
 ## Logic problem
 
 Premisas
@@ -315,6 +319,9 @@ Algoritmo EvenorOdd
 	
 	
 FinAlgoritmo
+
+
+## Week 3
 
 
 ## Simple calculator
@@ -671,6 +678,9 @@ FinAlgoritmo
 FinAlgoritmo
 
 
+## Week 4
+
+
 ## Algoritmo Averagesalesandcommission
 	
 	Imprimir "Write the total number of sales to enter"
@@ -948,6 +958,8 @@ FinFuncion
 	Imprimir ReverseDirectionAndSize("Text")
 
 FinAlgoritmo
+
+## Week 5
 
 ## Time Converter
 
