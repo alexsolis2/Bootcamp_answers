@@ -174,7 +174,7 @@ Algoritmo myName
 FinAlgoritmo
 
 ## Algorithm Game
-## Imagen
+![Image Text](https://github.com/alexsolis2/Bootcamp_answers/blob/main/Captura%20desde%202022-11-29%2015-33-30.png)
 
 
 ## Even or odd
@@ -397,7 +397,7 @@ FinAlgoritmo
 			Imprimir  "This number is almost special"
 		  SiNo
 			
-			Imprimir "Just a regular number"
+			Imprimir "Just a regular number"https://github.com/alexsolis2/Bootcamp_answers/blob/main/Captura%20desde%202022-11-29%2015-33-30.png
 		  
 		  Fin Si
 		  
@@ -487,7 +487,7 @@ FinAlgoritmo
 			Imprimir "Ingrese el dia de la semana en numeros (1-7)"
 			
 			Leer dia
-		    
+		    https://github.com/alexsolis2/Bootcamp_answers/blob/main/Captura%20desde%202022-11-29%2015-33-30.png
 		         Segun dia Hacer
 					
 					1: Imprimir "Lunes"
