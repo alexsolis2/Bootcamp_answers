@@ -173,6 +173,9 @@ Algoritmo myName
 	
 FinAlgoritmo
 
+## Algorithm Game
+## Imagen
+
 
 ## Even or odd
 Algoritmo EvenorOdd
