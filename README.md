@@ -1391,3 +1391,24 @@ FinAlgoritmo
 	</body>
 
 	</html>
+
+
+## Week 6
+
+## Week 7
+
+Objetcs: https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript
+
+Return to sanity: https://www.codewars.com/kata/514a7ac1a33775cbb500001e/train/javascript
+
+Object syntax debug: https://www.codewars.com/kata/56d8ae9237123036d3001b54/train/javascript
+
+Extending JavaScript Objects: Get First & Last Array Element: https://www.codewars.com/kata/581351c40d8f13bc450008b8/train/javascript
+
+Convert a String to a Number!: https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
+
+Convert number to reversed array of digits: https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript
+
+Truthy and Falsy: https://www.codewars.com/kata/595c2988d946a13298000157/train/javascript
+
+Training JS #4: Basic data types--Array: https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript
