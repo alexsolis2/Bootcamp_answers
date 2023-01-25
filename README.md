@@ -1412,3 +1412,60 @@ Convert number to reversed array of digits: https://www.codewars.com/kata/558309
 Truthy and Falsy: https://www.codewars.com/kata/595c2988d946a13298000157/train/javascript
 
 Training JS #4: Basic data types--Array: https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript
+
+## Week 8
+
+Training JS #7: if..else and ternary operator:  https://www.codewars.com/kata/57202aefe8d6c514300001fd/train/javascript
+
+Training JS #8: conditional statement--switch: https://www.codewars.com/kata/572059afc2f4612825000d8a/train/javascript
+
+Basic calculator:  https://www.codewars.com/kata/5296455e4fe0cdf2e000059f/train/javascript
+
+Even or odd:  https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
+
+A wolf in sheep's clothing:  https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/javascript
+
+Decode the morse code:  https://www.codewars.com/kata/54b724efac3d5402db00065e/train/javascript
+
+Who likes it?:  https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript
+
+Bit counting:  https://www.codewars.com/kata/526571aae218b8ee490006f4/train/javascript
+
+Your order, please: https://www.codewars.com/kata/55c45be3b2079eccff00010f/train/javascript
+
+Counting duplicates: https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/train/javascript
+
+Encrypt this!:     https://www.codewars.com/kata/5848565e273af816fb000449/train/javascript
+
+Valid parentheses:  https://www.codewars.com/kata/52774a314c2333f0a7000688/train/javascript
+
+Convert string to camel case: https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript
+
+## Week 9
+
+"this" is a problem:  https://www.codewars.com/kata/547c71fdc5b2b38db1000098/train/javascript
+
+"Thinkful - List and Loop Drills: Lists of lists":  https://www.codewars.com/kata/586e1d458cb711f0a800033b/train/javascript
+
+Stop gninnipS My sdroW!:   https://www.codewars.com/kata/5264d2b162488dc400000001/train/javascript
+
+"this" is an other problem:   https://www.codewars.com/kata/547f1a8d4a437abdf800055c/train/javascript
+
+"Who likes it?":   https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript
+
+Convert string to camel case: https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript
+
+Easy mathematical callback: https://www.codewars.com/kata/54b7c8d2cd7f51a839000ebf/train/javascript
+
+Moving Zeros To The End: https://www.codewars.com/kata/52597aa56021e91c93000cb0/train/javascript
+
+Valid Parentheses:  https://www.codewars.com/kata/52774a314c2333f0a7000688/train/javascript
+
+The Hashtag Generator: https://www.codewars.com/kata/52449b062fb80683ec000024/train/javascript
+
+String incrementer:   https://www.codewars.com/kata/54a91a4883a7de5d7800009c/train/javascript
+
+
+
+
+
