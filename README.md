@@ -1395,6 +1395,37 @@ FinAlgoritmo
 
 ## Week 6
 
+Variables: https://www.jshero.net/en/koans/var.html
+
+What is x?: https://www.jshero.net/en/koans/jsx01.html
+
+Several variables: https://www.jshero.net/en/koans/var2.html
+
+Reassignment: https://www.jshero.net/en/koans/jsx02.html
+
+Assign variables: https://www.jshero.net/en/koans/jsx03.html
+
+Functions: https://www.jshero.net/en/koans/function.html
+
+Multiple functions: https://www.jshero.net/en/koans/function2.html
+
+Function calls: https://www.jshero.net/en/koans/functioncall.html
+
+What is x? (function version): https://www.jshero.net/en/koans/jsx05.html
+
+Parameters: https://www.jshero.net/en/koans/parameter.html
+
+Strings: https://www.jshero.net/en/koans/string.html
+
+String: length: https://www.jshero.net/en/koans/stringlength.html
+
+String: toUpperCase(); https://www.jshero.net/en/koans/stringupper.html
+
+String: charAt(): https://www.jshero.net/en/koans/stringcharat.html
+
+String: indexOf(): https://www.jshero.net/en/koans/stringindexof.html
+
+
 ## Week 7
 
 Objetcs: https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript
