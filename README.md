@@ -1501,15 +1501,17 @@ String incrementer:   https://www.codewars.com/kata/54a91a4883a7de5d7800009c/tra
 ## Week 12
 
 What is Node.JS?
-
+Es un entorno de ejecución de JavaScript orientado a eventos asíncronos, está hecho para crear aplicaciones escalables.
 
 What is NPM?
+NPM es parte importante de Node.js, el entorno de ejecución de javaScript en el lado del servidor basado en el motor V8 de Google. Es muy seguramente la principal razón del gran éxito de Node permitiendo que cientos de desarrolladores puedan compartir paquetes de software entre distintos proyectos.
+NPM responde a las siglas de Node Package Manager o manejador de paquetes de node, es la herramienta por defecto de JavaScript para la tarea de compartir e instalar paquetes.
 
-
-What problem does Node.JS solve (Is there any problem that can be solved with Node.JS thinking)?
-
+What problem does Node.JS solve (Is there any problem that can be solved with Node.JS)?
+Problemas de escalabilidad y acceso en tiempo real.
 
 What is the V8 Javascript Engine?
+V8 es un motor de código abierto para JavaScript creado por Google. Cada navegador tiene su propio motor, pero con la evolución rápida de V8, otros navegadores han optado por integrarlo. Por este motivo, Microsoft Edge u Opera han decidido migrar a V8 para mejorar el rendimiento de su software.
 
 
 Is Node.JS really necessary in the Development ecosystem?
@@ -1526,6 +1528,7 @@ Are Node.JS and a browser the same?
 
 What is NVM and Why is it useful for Node.JS developers?
 
+nvm. Node Version Manager es un script bash utilizado para administrar múltiples versiones lanzadas de Node. js. Permite realizar operaciones como instalar, desinstalar, cambiar de versión, etc.
 
 
 
