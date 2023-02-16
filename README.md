@@ -1515,20 +1515,37 @@ V8 es un motor de código abierto para JavaScript creado por Google. Cada navega
 
 
 Is Node.JS really necessary in the Development ecosystem?
-
+Si, ya que permite gestionar múltiples conexiones al mismo tiempo, evitando el bloqueo de procesos.
 
 Why not use PHP or Golang?
-
+El rendimiento es una parte integral de todo sistema escalable, y por eso los desarrolladores adoran Node.js. 
 
 What is the difference between Node.JS and any other browser?
 
+Mientras que JavaScript se utiliza como lenguaje de desarrollo del lado del cliente, Node. js cubre la programación del lado del servidor. Gracias a Node. js, JavaScript se ha convertido en un lenguaje de desarrollo de pila completa multipropósito.
 
 Are Node.JS and a browser the same?
+No
 
 
 What is NVM and Why is it useful for Node.JS developers?
 
 nvm. Node Version Manager es un script bash utilizado para administrar múltiples versiones lanzadas de Node. js. Permite realizar operaciones como instalar, desinstalar, cambiar de versión, etc.
 
+What is a Javascript Module?
+Un módulo es un conjunto de funciones y objetos de JavaScript que las aplicaciones externas pueden usar. La descripción de un fragmento de código como módulo se refiere menos a lo que es el código que a lo que hace; cualquier archivo de Node.
 
+Why are Javascript Modules necessary?
 
+Los módulos ES6 en JavaScript permiten partir nuestro código en distintos archivos y reutilizarlo en diferentes sitios. Para ello, utilizan la misma lógica de importación y exportación de los CommonJS Modules, pero con las palabras clave export e import. Con ellas, podemos importar elementos de muchas maneras
+
+What module standards are available in Node.JS?
+El sistema de módulos utilizado actualmente en Node.js extiende del estándar de CommonJS, aunque hay que destacar que se están implementando otras soluciones como los módulos de ES. Sin embargo, al principio este vacío no estaba cubierto y CommonJS fue quien lo lleno.
+
+What are the differences between ESModules and CommonJS modules?
+ES modules are the standard for JavaScript, while CommonJS is the default in Node.js 
+
+Which types of modules exist in Node.JS?
+Built-in modules: Son los módulos nativos de la API de Node.js. No hace falta que se instalen, ya que vienen incluidos por defecto con Node.js. Algunos ejemplos son los módulos fs o stream. Estos paquetes solo son actualizados si cambias la versión de Node.js.
+Local modules: Son los módulos escritos por los desarrolladores y forman en su conjunto gran parte de la aplicación. Como ya has leído, se estructuran así con la finalidad de poder ser un código reutilizable.
+External modules: Son, en esencia, los paquetes de terceros distribuidos a través de npm (aunque pueden provenir de otros repositorios). Estos paquetes se instalan como dependencias y, aunque aportan funcionalidad a la aplicación, no deben incluirse en el repositorio ya que no son parte de la misma.
