@@ -1561,10 +1561,14 @@ Is a server just another physical computer?
 No también requiere de software, para poder responder las solicitudes.
 
 Why do we refer to a certain class of applications as Servers?
+
 What is the difference?
+
 Is there any similarity between human communication and the client-server model?
 List some examples
 Is the client-server model applicable only to the Web?
+
 Do desktop applications use the client-server model?
 Can you mention any other example of this model outside the Web?
+
 
