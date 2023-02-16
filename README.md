@@ -1549,3 +1549,22 @@ Which types of modules exist in Node.JS?
 Built-in modules: Son los módulos nativos de la API de Node.js. No hace falta que se instalen, ya que vienen incluidos por defecto con Node.js. Algunos ejemplos son los módulos fs o stream. Estos paquetes solo son actualizados si cambias la versión de Node.js.
 Local modules: Son los módulos escritos por los desarrolladores y forman en su conjunto gran parte de la aplicación. Como ya has leído, se estructuran así con la finalidad de poder ser un código reutilizable.
 External modules: Son, en esencia, los paquetes de terceros distribuidos a través de npm (aunque pueden provenir de otros repositorios). Estos paquetes se instalan como dependencias y, aunque aportan funcionalidad a la aplicación, no deben incluirse en el repositorio ya que no son parte de la misma.
+
+
+What is a Server?
+Un servidor es un conjunto de computadoras los cuales son capaces de atender las peticiones de un cliente y devolverle una respuesta en concordancia. Los servidores se pueden ejecutar en cualquier tipo de computadora, incluso en computadoras dedicadas a las cuales se les conoce individualmente como «el servidor».
+
+What is a Client?
+Un cliente es quien realiza peticiones a otro programa, el servidor, quien le da respuesta
+
+Is a server just another physical computer?
+No también requiere de software, para poder responder las solicitudes.
+
+Why do we refer to a certain class of applications as Servers?
+What is the difference?
+Is there any similarity between human communication and the client-server model?
+List some examples
+Is the client-server model applicable only to the Web?
+Do desktop applications use the client-server model?
+Can you mention any other example of this model outside the Web?
+
