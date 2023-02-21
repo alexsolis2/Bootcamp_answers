@@ -1,0 +1,23 @@
+{
+  "name": "hwn",
+  "version": "1.0.0",
+  "description": "first nodejs task",
+  "main": "y",
+  "scripts": {
+    "test": "task"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsolis2/Bootcamp_answers.git"
+  },
+  "keywords": [
+    "nodejs",
+    "JavaScript"
+  ],
+  "author": "alexsolis2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexsolis2/Bootcamp_answers/issues"
+  },
+  "homepage": "https://github.com/alexsolis2/Bootcamp_answers#readme"
+}
