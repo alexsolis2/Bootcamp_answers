@@ -1500,82 +1500,82 @@ String incrementer:   https://www.codewars.com/kata/54a91a4883a7de5d7800009c/tra
 
 ## Week 12
 
-# What is Node.JS?
+## What is Node.JS?
 
 Es un entorno de ejecución de JavaScript orientado a eventos asíncronos, está hecho para crear aplicaciones escalables.
 
-#What is NPM?
+## What is NPM?
 
 NPM es parte importante de Node.js, el entorno de ejecución de javaScript en el lado del servidor basado en el motor V8 de Google. Es muy seguramente la principal razón del gran éxito de Node permitiendo que cientos de desarrolladores puedan compartir paquetes de software entre distintos proyectos.
 NPM responde a las siglas de Node Package Manager o manejador de paquetes de node, es la herramienta por defecto de JavaScript para la tarea de compartir e instalar paquetes.
 
-#What problem does Node.JS solve (Is there any problem that can be solved with Node.JS)?
+## What problem does Node.JS solve (Is there any problem that can be solved with Node.JS)?
 
 Problemas de escalabilidad y acceso en tiempo real.
 
-#What is the V8 Javascript Engine?
+## What is the V8 Javascript Engine?
 
 V8 es un motor de código abierto para JavaScript creado por Google. Cada navegador tiene su propio motor, pero con la evolución rápida de V8, otros navegadores han optado por integrarlo. Por este motivo, Microsoft Edge u Opera han decidido migrar a V8 para mejorar el rendimiento de su software.
 
-#Is Node.JS really necessary in the Development ecosystem?
+## Is Node.JS really necessary in the Development ecosystem?
 
 Si, ya que permite gestionar múltiples conexiones al mismo tiempo, evitando el bloqueo de procesos.
 
-#Why not use PHP or Golang?
+## Why not use PHP or Golang?
 
 El rendimiento es una parte integral de todo sistema escalable, y por eso los desarrolladores adoran Node.js. 
 
-#What is the difference between Node.JS and any other browser?
+## What is the difference between Node.JS and any other browser?
 
 Mientras que JavaScript se utiliza como lenguaje de desarrollo del lado del cliente, Node. js cubre la programación del lado del servidor. Gracias a Node. js, JavaScript se ha convertido en un lenguaje de desarrollo de pila completa multipropósito.
 
-#Are Node.JS and a browser the same?
+## Are Node.JS and a browser the same?
 
 No
 
 
-#What is NVM and Why is it useful for Node.JS developers?
+## What is NVM and Why is it useful for Node.JS developers?
 
 nvm. Node Version Manager es un script bash utilizado para administrar múltiples versiones lanzadas de Node. js. Permite realizar operaciones como instalar, desinstalar, cambiar de versión, etc.
 
-#What is a Javascript Module?
+## What is a Javascript Module?
 
 Un módulo es un conjunto de funciones y objetos de JavaScript que las aplicaciones externas pueden usar. La descripción de un fragmento de código como módulo se refiere menos a lo que es el código que a lo que hace; cualquier archivo de Node.
 
-#Why are Javascript Modules necessary?
+## Why are Javascript Modules necessary?
 
 Los módulos ES6 en JavaScript permiten partir nuestro código en distintos archivos y reutilizarlo en diferentes sitios. Para ello, utilizan la misma lógica de importación y exportación de los CommonJS Modules, pero con las palabras clave export e import. Con ellas, podemos importar elementos de muchas maneras
 
-#What module standards are available in Node.JS?
+## What module standards are available in Node.JS?
 
 El sistema de módulos utilizado actualmente en Node.js extiende del estándar de CommonJS, aunque hay que destacar que se están implementando otras soluciones como los módulos de ES. Sin embargo, al principio este vacío no estaba cubierto y CommonJS fue quien lo lleno.
 
-#What are the differences between ESModules and CommonJS modules?
+## What are the differences between ESModules and CommonJS modules?
 
 ES modules are the standard for JavaScript, while CommonJS is the default in Node.js 
 
-#Which types of modules exist in Node.JS?
+## Which types of modules exist in Node.JS?
 
 Built-in modules: Son los módulos nativos de la API de Node.js. No hace falta que se instalen, ya que vienen incluidos por defecto con Node.js. Algunos ejemplos son los módulos fs o stream. Estos paquetes solo son actualizados si cambias la versión de Node.js.
 Local modules: Son los módulos escritos por los desarrolladores y forman en su conjunto gran parte de la aplicación. Como ya has leído, se estructuran así con la finalidad de poder ser un código reutilizable.
 External modules: Son, en esencia, los paquetes de terceros distribuidos a través de npm (aunque pueden provenir de otros repositorios). Estos paquetes se instalan como dependencias y, aunque aportan funcionalidad a la aplicación, no deben incluirse en el repositorio ya que no son parte de la misma.
 
 
-#What is a Server?
+## What is a Server?
 
 Un servidor es un conjunto de computadoras los cuales son capaces de atender las peticiones de un cliente y devolverle una respuesta en concordancia. Los servidores se pueden ejecutar en cualquier tipo de computadora, incluso en computadoras dedicadas a las cuales se les conoce individualmente como «el servidor».
 
-#What is a Client?
+## What is a Client?
 
 Un cliente es quien realiza peticiones a otro programa, el servidor, quien le da respuesta
 
-#Is a server just another physical computer?
+## Is a server just another physical computer?
 
 No también requiere de software, para poder responder las solicitudes.
 
-#Why do we refer to a certain class of applications as Servers?
+## Why do we refer to a certain class of applications as Servers?
 
-#What is the difference?
+## What is the difference?
 
 Is there any similarity between human communication and the client-server model?
 List some examples
@@ -1585,19 +1585,87 @@ Do desktop applications use the client-server model?
 Can you mention any other example of this model outside the Web?
 
 
-#What is HTTP?
+## What is HTTP?
+HTTP, de sus siglas en inglés: "Hypertext Transfer Protocol", es el nombre de un protocolo el 
+cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML
 
-#What is a Communication Protocol?
+## What is a Communication Protocol?
+Conjunto de reglas y normas que permiten que dos o más nodos de una red se comuniquen entre ellos 
+para transmitir y recibir información. El protocolo más usado en internet es el TCP/IP.
 
-#Do humans use communication protocols?
+## Do humans use communication protocols?
+Si, tanto verbal como no verbal
 
-#What is a Request in HTTP?
+## What is a Request in HTTP?
+La línea de salida de una petición HTTP se conoce como línea de la petición. Siempre es la primera línea del mensaje 
+de solicitud y contiene tres campos:
+• Un método HTTP
+• Un identificador universal de recursos (URI)
+• Una versión del protocolo HTTP
 
-#What is a Response in HTTP?
+Aunque hay varios métodos de HTTP para recuperar datos de un servidor, las dos más utilizados son GET y POST.
 
-#What is an HTTP method?
+## What is a Response in HTTP?
+La respuesta HTTP
+Una vez que el servidor ha recibido y procesado la solicitud, éste debe devolver un mensaje de respuesta HTTP hacia el cliente.
+El mensaje de respuesta se compone de una línea de estado y cero o más campos de cabecera, seguido por una línea vacía. 
+También puede tener opcionalmente un cuerpo del mensaje.
 
-#What are HTTP request headers?
+## What is an HTTP method?
+HTTP define un conjunto de métodos de petición para indicar la acción que se desea realizar para un recurso determinado. 
+Aunque estos también pueden ser sustantivos, estos métodos de solicitud a veces son llamados HTTP verbs.
 
+## What are HTTP request headers?
+Un encabezado de solicitud es un encabezado HTTP que se puede usar en una solicitud HTTP para proporcionar información sobre el contexto de la 
+solicitud, de modo que el servidor pueda adaptar la respuesta. Por ejemplo, los encabezados Aceptar-* indican los formatos permitidos y 
+preferidos de la respuesta.
 
+## What is an API?
+API significa Interfaz de programación de aplicaciones . En el contexto de las API, la palabra Aplicación se refiere a cualquier software con una 
+función distinta. La interfaz se puede considerar como un contrato de servicio entre dos aplicaciones. Este contrato define cómo los dos se comunican 
+entre sí mediante solicitudes y respuestas.
+
+## What is a Protocol?
+Un protocolo es un conjunto de reglas: los protocolos de red son estándares y políticas formales, conformados por restricciones, procedimientos y 
+formatos que definen el intercambio de paquetes de información para lograr la comunicación entre dos servidores o más dispositivos a través de una red.
+
+## Is the term API only applicable to the communication of programs over the Internet?
+No
+## Why is structured communication between two programs important?
+
+## Do we humans use APIs when communicating without technology?
+Si, cuando hay qe interacturar con personas que no hablan nuestro idioma
+## Is an API just another program or a standard?
+Standard
+## Do you know any API? Can you list at least 5 examples of APIs?
+Twitter Bots.
+Log-In Using XYZ.
+Weather Snippers.
+Pay with PayPal.
+Google Maps.
+
+## What is JSON? Is JSON the same as a plain Javascript object?
+JSON es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera un formato independiente del lenguaje.
+No es lo mismo.
+
+## What is REST? Is REST a programming language, framework, technology, or architecture pattern?
+REST es una interfaz para conectar varios sistemas basados en el protocolo HTTP (uno de los protocolos más antiguos) y nos sirve para obtener y generar datos y operaciones, devolviendo esos datos en formatos muy específicos, como XML y JSON. Es un patrón de arquitectura.
+
+## What is a Resource in REST? What is a resource identifier?
+Un recurso en REST es un Objeto similar en la Programación Orientada a Objetos o es como una Entidad en una Base de Datos. Una vez que se identifica un recurso, se debe decidir su representación utilizando un formato estándar para que el servidor pueda enviar el recurso en dicho formato y el cliente pueda entender el mismo formato.
+Se puede acceder a cada recurso de la API REST mediante un identificador uniforme de recursos (URI). El URI debe contener la información de conexión correcta para llamar correctamente a la API. La información de conexión consta del nombre de host donde se ejecuta el servicio de administración web y el número de puerto que utiliza el servicio.
+
+## How are HTTP and REST related? What HTTP methods does REST use within its architecture rules? Why do we use HTTP methods in REST and how do they relate to resources?
+REST es una interfaz para conectar varios sistemas basados en el protocolo HTTP (uno de los protocolos más antiguos) y nos sirve para obtener y generar datos y operaciones, devolviendo esos datos en formatos muy específicos, como XML y JSON. 
+
+POST: crear un recurso nuevo.
+PUT: modificar un recurso existente.
+GET: consultar información de un recurso.
+DELETE: eliminar un recurso determinado.
+PATCH: modificar solamente un atributo de un recurso.
+
+## Is REST the same as HTTP?
+No es una interfaz para conectar sistemas basados en ese protocolo
+
+## Answer the questions: Postman only works with REST APIs? Is there an alternative to Postman?
 
