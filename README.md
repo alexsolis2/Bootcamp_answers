@@ -1678,3 +1678,22 @@ No es una interfaz para conectar sistemas basados en ese protocolo
 
 ## Answer the questions: Postman only works with REST APIs? Is there an alternative to Postman?
 
+## Express.JS Core Understanding
+
+const express = require('express')
+
+const app = express()
+
+const port = 3000
+
+app.get('/', (req, res) => {
+  
+  res.send('Hello World!')
+
+})
+
+app.listen(port, () => {
+  
+  console.log(`Example app listening on port ${port}`)
+
+})
