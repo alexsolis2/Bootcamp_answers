@@ -1560,6 +1560,15 @@ Built-in modules: Son los módulos nativos de la API de Node.js. No hace falta q
 Local modules: Son los módulos escritos por los desarrolladores y forman en su conjunto gran parte de la aplicación. Como ya has leído, se estructuran así con la finalidad de poder ser un código reutilizable.
 External modules: Son, en esencia, los paquetes de terceros distribuidos a través de npm (aunque pueden provenir de otros repositorios). Estos paquetes se instalan como dependencias y, aunque aportan funcionalidad a la aplicación, no deben incluirse en el repositorio ya que no son parte de la misma.
 
+## Node.JS Hello World - Practice
+
+Why do we run the npm init command and not node init to create a new Node.JS project?
+
+When you entered the npm init command and answered the questions you saw in the terminal, a new file called packacke.json was generated.
+
+What does this file do?
+El archivo package.json es el corazón de cualquier proyecto de Node. Registra metadatos importantes sobre un proyecto que se requiere antes de publicar en NPM y también define los atributos funcionales de un proyecto que npm usa para instalar dependencias, ejecutar scripts e identificar el punto de entrada a nuestro paquete.
+Why is this file generated?
 
 ## What is a Server?
 
