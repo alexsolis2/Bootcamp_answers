@@ -1563,12 +1563,21 @@ External modules: Son, en esencia, los paquetes de terceros distribuidos a trav�
 ## Node.JS Hello World - Practice
 
 Why do we run the npm init command and not node init to create a new Node.JS project?
+Para crear el archivo package.json desde cero.
 
 When you entered the npm init command and answered the questions you saw in the terminal, a new file called packacke.json was generated.
 
 What does this file do?
 El archivo package.json es el corazón de cualquier proyecto de Node. Registra metadatos importantes sobre un proyecto que se requiere antes de publicar en NPM y también define los atributos funcionales de un proyecto que npm usa para instalar dependencias, ejecutar scripts e identificar el punto de entrada a nuestro paquete.
 Why is this file generated?
+Es necesario para que node sepa las dependencias y la información del archivo.
+
+Link del readme: https://github.com/alexsolis2/Bootcamp_answers/blob/main/hello_world_node.js
+https://github.com/alexsolis2/Bootcamp_answers/blob/main/package.json
+
+##Modules Practice
+https://github.com/alexsolis2/Bootcamp_answers/tree/main/modules
+
 
 ## What is a Server?
 
@@ -1583,8 +1592,10 @@ Un cliente es quien realiza peticiones a otro programa, el servidor, quien le da
 No también requiere de software, para poder responder las solicitudes.
 
 ## Why do we refer to a certain class of applications as Servers?
+Porque reciben peticiones de ciertos clientes
 
 ## What is the difference?
+EL rendimiento y tiemposde repuesta
 
 Is there any similarity between human communication and the client-server model?
 List some examples
@@ -1641,7 +1652,7 @@ formatos que definen el intercambio de paquetes de información para lograr la c
 ## Is the term API only applicable to the communication of programs over the Internet?
 No
 ## Why is structured communication between two programs important?
-
+Para llevar un orden en el proceso solicitud-respuesta
 ## Do we humans use APIs when communicating without technology?
 Si, cuando hay qe interacturar con personas que no hablan nuestro idioma
 ## Is an API just another program or a standard?
@@ -1677,6 +1688,8 @@ PATCH: modificar solamente un atributo de un recurso.
 No es una interfaz para conectar sistemas basados en ese protocolo
 
 ## Answer the questions: Postman only works with REST APIs? Is there an alternative to Postman?
+Tambien usa soap
+si hay alternativas a postman
 
 ## Express.JS Core Understanding
 
