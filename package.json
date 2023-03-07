@@ -1,23 +1,14 @@
 {
-  "name": "hwn",
+  "name": "myapp",
   "version": "1.0.0",
-  "description": "first nodejs task",
-  "main": "y",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "task"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexsolis2/Bootcamp_answers.git"
-  },
-  "keywords": [
-    "nodejs",
-    "JavaScript"
-  ],
-  "author": "alexsolis2",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alexsolis2/Bootcamp_answers/issues"
-  },
-  "homepage": "https://github.com/alexsolis2/Bootcamp_answers#readme"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
