@@ -1575,7 +1575,7 @@ Es necesario para que node sepa las dependencias y la información del archivo.
 Link del readme: https://github.com/alexsolis2/Bootcamp_answers/blob/main/hello_world_node.js
 https://github.com/alexsolis2/Bootcamp_answers/blob/main/package.json
 
-##Modules Practice
+## Modules Practice
 https://github.com/alexsolis2/Bootcamp_answers/tree/main/modules
 
 
@@ -1710,3 +1710,23 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 
 })
+
+## Forrest Gump Ping-Pong API
+
+const express = require('express');
+const app = express();
+app.use(express.json());
+const pong =   {"message":"pong"};
+const ping =   {"message":"ping"};
+
+app.get('/',(req,res) => {
+    res.send('Node JS api');
+});
+
+app.get('/ping',(req,res) => {
+    res.send(pong);
+});
+app.get('/pong',(req,res) => {
+    res.send(ping);
+});
+
