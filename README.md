@@ -1730,3 +1730,62 @@ app.get('/pong',(req,res) => {
     res.send(ping);
 });
 
+## Delayed Response Api
+
+const express = require('express');
+const app = express();
+app.use(express.json());
+const message =   {"message":"Delay"};
+
+app.get('/',(req,res) => {
+    res.send('Node JS api');
+});
+app.get('/api/delay',(req,res) => {
+    setTimeout(function() {
+        res.send(message);
+    }, 6000); 
+});
+
+app.get('/api/delay/:id',(req,res) => {
+    const time = parseInt(req.params.id);
+    setTimeout(function() {
+        res.send(message);
+    }, time); 
+});
+
+const port = process.env.port || 3000;
+app.listen(port, () => console.log('Escuchando en puerto...'));
+
+## Age Prediction API
+
+const express = require('express');
+const app = express();
+app.use(express.json());
+var name = "";
+var age = "";
+var days = "";
+
+app.get('/',(req,res) => {
+    res.send('Node JS api');
+});
+app.get('/api/age/:samsepiol',(req,res) => {   
+    name = req.params.samsepiol;
+    age = (Math.floor(Math.random() * 99) + 1);
+    days = (age*365).toString();
+    age = age.toString();
+    var message =   {
+        "name":name,
+        "age":age,
+        "days":days
+    };
+    res.send(message);
+    
+});
+app.get('/api/age',(req,res) => {
+    var message =  {"error": "Missing parameter 'name' was expected."};
+    res.send(message);
+});
+
+
+const port = process.env.port || 3000;
+app.listen(port, () => console.log('Escuchando en puerto...'));
